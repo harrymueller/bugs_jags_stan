@@ -1,0 +1,8 @@
+# general
+alias l='ls -lah'
+alias py='python3'
+alias python='python3'
+
+# rstudio server
+alias rs='nohup /usr/lib/rstudio-server/bin/rserver --server-daemonize 0 > /home/rstudio/log.out &'
+alias killrs='killall rserver; killall rsession'
